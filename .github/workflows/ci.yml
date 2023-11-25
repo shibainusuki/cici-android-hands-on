@@ -16,3 +16,4 @@ jobs:
           java-version: '17'
       - run: ./gradlew assemble
       - uses: ./.github/workflows/reportLintResults
+      - run: ./gradlew test
