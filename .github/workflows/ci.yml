@@ -15,3 +15,4 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
       - run: ./gradlew assemble
+      - uses: ./.github/workflows/reportLintResults
